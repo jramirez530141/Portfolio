@@ -1,0 +1,63 @@
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #3b0063, #98467f);
+      color: #fff;
+    }
+    .hero {
+      height: 100vh;
+      background: linear-gradient(135deg, #8e2de2, #3b0063);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    .navbar {
+      background: #36005b;
+    }
+    .nav-link {
+      color: #fff !important;
+    }
+    section {
+      padding: 60px 0;
+    }
+    #about, #contact {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      padding: 40px;
+    }
+    #projects {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 15px;
+    }
+    .project-card {
+      background: #ebd2fc;
+      color: #333;
+      border-radius: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+    .btn-primary {
+      background-color: #642e54;
+      border: none;
+    }
+    .btn-primary:hover {
+      background-color: #451f39;
+    }
+    footer {
+      background: rgba(0,0,0,0.8);
+      color: #ffdef5;
+      text-align: center;
+      padding: 20px 0;
+    }
